@@ -18,32 +18,39 @@ def create_database():
     Close the connection after creating the database
     to avoid locking the file."""
     logging.debug("Starting major_function")
+
     try:
         conn = sqlite3.connect(db_file)
         conn.close()
         print("Database created successfully.")
     except sqlite3.Error as e:
         print("Error creating the database:", e)
+
     logging.debug("Ending major_function")
+    logging.debug("Database created_function completed")
 
 def create_tables():
     """Function to read and execute SQL statements to create tables"""
     logging.debug("Starting major_function")
+
     try:
         with sqlite3.connect(db_file) as conn:
-            sql_file = pathlib.Path("sql", "create_tables.sql")
+            sql_file = pathlib.Path("sql","create_table.sql")
             with open(sql_file, "r") as file:
                 sql_script = file.read()
             conn.executescript(sql_script)
             print("Tables created successfully.")
     except sqlite3.Error as e:
         print("Error creating tables:", e)
+
     logging.debug("Ending major_function")
+    logging.debug("table created_function completed")
 
 def insert_data_from_csv():
     """Function to use pandas to read data from CSV files (in 'data' folder)
     and insert the records into their respective tables."""
     logging.debug("Starting major_function")
+
     try:
         author_data_path = pathlib.Path("data", "authors.csv")
         book_data_path = pathlib.Path("data", "books.csv")
@@ -57,7 +64,9 @@ def insert_data_from_csv():
             print("Data inserted successfully.")
     except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
         print("Error inserting data:", e)
+    
     logging.debug("Ending major_function")
+    logging.debug("inserting data_function completed")
 
 def main():
     logging.debug("Starting major_function")
