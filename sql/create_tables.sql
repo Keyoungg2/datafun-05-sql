@@ -33,7 +33,7 @@ CREATE TABLE authors (
 -- The library table is dependent on the books table
 
 CREATE TABLE libraries (
-    location_id INTEGER PRIMARY KEY,
+    location_id INTEGER,
     library_name TEXT,
     street_address TEXT,
     book_id TEXT, 

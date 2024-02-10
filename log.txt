@@ -385,3 +385,183 @@
 2024-02-10 11:31:09,244 - INFO - Executed SQL from {sql_file}
 2024-02-10 11:31:09,245 - DEBUG - Ending major_function
 2024-02-10 11:31:09,245 - INFO - Executed SQL from {sql_file}
+2024-02-10 11:45:24,000 - INFO - Program started
+2024-02-10 11:45:24,000 - INFO - Program ended
+2024-02-10 11:45:24,001 - DEBUG - Starting major_function
+2024-02-10 11:45:24,001 - DEBUG - Starting major_function
+2024-02-10 11:45:24,001 - DEBUG - Ending major_function
+2024-02-10 11:45:24,001 - INFO - Database created_function completed
+2024-02-10 11:45:24,001 - DEBUG - Starting major_function
+2024-02-10 11:45:24,028 - DEBUG - Ending major_function
+2024-02-10 11:45:24,028 - INFO - table created_function completed
+2024-02-10 11:45:24,028 - DEBUG - Starting major_function
+2024-02-10 11:45:24,071 - DEBUG - Ending major_function
+2024-02-10 11:45:24,071 - INFO - inserting data_function completed
+2024-02-10 11:45:24,095 - DEBUG - Ending major_function
+2024-02-10 11:45:24,095 - INFO - Executed SQL from {sql_file}
+2024-02-10 11:47:44,756 - INFO - Program started
+2024-02-10 11:47:44,756 - INFO - Program ended
+2024-02-10 11:47:44,756 - DEBUG - Starting major_function
+2024-02-10 11:47:44,756 - DEBUG - Starting major_function
+2024-02-10 11:47:44,756 - DEBUG - Ending major_function
+2024-02-10 11:47:44,756 - INFO - Database created_function completed
+2024-02-10 11:47:44,756 - DEBUG - Starting major_function
+2024-02-10 11:47:44,785 - DEBUG - Ending major_function
+2024-02-10 11:47:44,785 - INFO - table created_function completed
+2024-02-10 11:47:44,785 - DEBUG - Starting major_function
+2024-02-10 11:47:44,828 - DEBUG - Ending major_function
+2024-02-10 11:47:44,828 - INFO - inserting data_function completed
+2024-02-10 11:47:44,853 - DEBUG - Ending major_function
+2024-02-10 11:47:44,853 - INFO - Executed SQL from {sql_file}
+2024-02-10 11:49:42,480 - INFO - Program started
+2024-02-10 11:49:42,481 - INFO - Program ended
+2024-02-10 11:49:42,481 - DEBUG - Starting major_function
+2024-02-10 11:49:42,481 - DEBUG - Starting major_function
+2024-02-10 11:49:42,482 - DEBUG - Ending major_function
+2024-02-10 11:49:42,482 - INFO - Database created_function completed
+2024-02-10 11:49:42,482 - DEBUG - Starting major_function
+2024-02-10 11:49:42,506 - DEBUG - Ending major_function
+2024-02-10 11:49:42,506 - INFO - table created_function completed
+2024-02-10 11:49:42,507 - DEBUG - Starting major_function
+2024-02-10 11:49:42,574 - DEBUG - Ending major_function
+2024-02-10 11:49:42,575 - INFO - inserting data_function completed
+2024-02-10 11:49:42,598 - DEBUG - Ending major_function
+2024-02-10 11:49:42,598 - INFO - Executed SQL from {sql_file}
+2024-02-10 11:51:21,905 - INFO - Program started
+2024-02-10 11:51:21,905 - INFO - Program ended
+2024-02-10 11:51:21,905 - DEBUG - Starting major_function
+2024-02-10 11:51:21,905 - DEBUG - Starting major_function
+2024-02-10 11:51:21,906 - DEBUG - Ending major_function
+2024-02-10 11:51:21,906 - INFO - Database created_function completed
+2024-02-10 11:51:21,906 - DEBUG - Starting major_function
+2024-02-10 11:51:21,936 - DEBUG - Ending major_function
+2024-02-10 11:51:21,937 - INFO - table created_function completed
+2024-02-10 11:51:21,937 - DEBUG - Starting major_function
+2024-02-10 11:51:21,980 - DEBUG - Ending major_function
+2024-02-10 11:51:21,981 - INFO - inserting data_function completed
+2024-02-10 11:51:22,004 - DEBUG - Ending major_function
+2024-02-10 11:51:22,004 - INFO - Executed SQL from {sql_file}
+2024-02-10 11:55:04,740 - INFO - Program started
+2024-02-10 11:55:04,740 - INFO - Program ended
+2024-02-10 11:55:04,740 - DEBUG - Starting major_function
+2024-02-10 11:55:04,740 - DEBUG - Starting major_function
+2024-02-10 11:55:04,740 - DEBUG - Ending major_function
+2024-02-10 11:55:04,741 - INFO - Database created_function completed
+2024-02-10 11:55:04,741 - DEBUG - Starting major_function
+2024-02-10 11:55:04,763 - DEBUG - Ending major_function
+2024-02-10 11:55:04,763 - INFO - table created_function completed
+2024-02-10 11:55:04,763 - DEBUG - Starting major_function
+2024-02-10 11:55:04,805 - DEBUG - Ending major_function
+2024-02-10 11:55:04,805 - INFO - inserting data_function completed
+2024-02-10 11:55:04,827 - DEBUG - Ending major_function
+2024-02-10 11:55:04,827 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:00:40,314 - INFO - Program started
+2024-02-10 12:00:40,314 - INFO - Program ended
+2024-02-10 12:00:40,314 - DEBUG - Starting major_function
+2024-02-10 12:00:40,314 - DEBUG - Starting major_function
+2024-02-10 12:00:40,315 - DEBUG - Ending major_function
+2024-02-10 12:00:40,315 - INFO - Database created_function completed
+2024-02-10 12:00:40,315 - DEBUG - Starting major_function
+2024-02-10 12:00:40,345 - DEBUG - Ending major_function
+2024-02-10 12:00:40,345 - INFO - table created_function completed
+2024-02-10 12:00:40,345 - DEBUG - Starting major_function
+2024-02-10 12:00:40,389 - DEBUG - Ending major_function
+2024-02-10 12:00:40,390 - INFO - inserting data_function completed
+2024-02-10 12:00:40,413 - DEBUG - Ending major_function
+2024-02-10 12:00:40,413 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:00:40,424 - DEBUG - Ending major_function
+2024-02-10 12:00:40,425 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:00:40,429 - DEBUG - Ending major_function
+2024-02-10 12:00:40,429 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:00:40,434 - DEBUG - Ending major_function
+2024-02-10 12:00:40,434 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:00:40,436 - DEBUG - Ending major_function
+2024-02-10 12:00:40,436 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:00:40,438 - DEBUG - Ending major_function
+2024-02-10 12:00:40,438 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:02:21,582 - INFO - Program started
+2024-02-10 12:02:21,582 - INFO - Program ended
+2024-02-10 12:02:21,583 - DEBUG - Starting major_function
+2024-02-10 12:02:21,583 - DEBUG - Starting major_function
+2024-02-10 12:02:21,583 - DEBUG - Ending major_function
+2024-02-10 12:02:21,583 - INFO - Database created_function completed
+2024-02-10 12:02:21,583 - DEBUG - Starting major_function
+2024-02-10 12:02:21,608 - DEBUG - Ending major_function
+2024-02-10 12:02:21,609 - INFO - table created_function completed
+2024-02-10 12:02:21,609 - DEBUG - Starting major_function
+2024-02-10 12:02:21,651 - DEBUG - Ending major_function
+2024-02-10 12:02:21,651 - INFO - inserting data_function completed
+2024-02-10 12:02:21,674 - DEBUG - Ending major_function
+2024-02-10 12:02:21,674 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:02:21,685 - DEBUG - Ending major_function
+2024-02-10 12:02:21,685 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:02:21,691 - DEBUG - Ending major_function
+2024-02-10 12:02:21,691 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:02:21,697 - DEBUG - Ending major_function
+2024-02-10 12:02:21,697 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:02:21,698 - DEBUG - Ending major_function
+2024-02-10 12:02:21,698 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:02:21,700 - DEBUG - Ending major_function
+2024-02-10 12:02:21,700 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:02:21,701 - DEBUG - Ending major_function
+2024-02-10 12:02:21,701 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,293 - INFO - Program started
+2024-02-10 12:03:14,293 - INFO - Program ended
+2024-02-10 12:03:14,293 - DEBUG - Starting major_function
+2024-02-10 12:03:14,293 - DEBUG - Starting major_function
+2024-02-10 12:03:14,294 - DEBUG - Ending major_function
+2024-02-10 12:03:14,294 - INFO - Database created_function completed
+2024-02-10 12:03:14,294 - DEBUG - Starting major_function
+2024-02-10 12:03:14,326 - DEBUG - Ending major_function
+2024-02-10 12:03:14,326 - INFO - table created_function completed
+2024-02-10 12:03:14,326 - DEBUG - Starting major_function
+2024-02-10 12:03:14,406 - DEBUG - Ending major_function
+2024-02-10 12:03:14,406 - INFO - inserting data_function completed
+2024-02-10 12:03:14,453 - DEBUG - Ending major_function
+2024-02-10 12:03:14,454 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,475 - DEBUG - Ending major_function
+2024-02-10 12:03:14,477 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,483 - DEBUG - Ending major_function
+2024-02-10 12:03:14,483 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,489 - DEBUG - Ending major_function
+2024-02-10 12:03:14,490 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,493 - DEBUG - Ending major_function
+2024-02-10 12:03:14,493 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,494 - DEBUG - Ending major_function
+2024-02-10 12:03:14,494 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,495 - DEBUG - Ending major_function
+2024-02-10 12:03:14,495 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:14,497 - DEBUG - Ending major_function
+2024-02-10 12:03:14,497 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,825 - INFO - Program started
+2024-02-10 12:03:57,825 - INFO - Program ended
+2024-02-10 12:03:57,825 - DEBUG - Starting major_function
+2024-02-10 12:03:57,825 - DEBUG - Starting major_function
+2024-02-10 12:03:57,826 - DEBUG - Ending major_function
+2024-02-10 12:03:57,826 - INFO - Database created_function completed
+2024-02-10 12:03:57,826 - DEBUG - Starting major_function
+2024-02-10 12:03:57,853 - DEBUG - Ending major_function
+2024-02-10 12:03:57,853 - INFO - table created_function completed
+2024-02-10 12:03:57,853 - DEBUG - Starting major_function
+2024-02-10 12:03:57,902 - DEBUG - Ending major_function
+2024-02-10 12:03:57,903 - INFO - inserting data_function completed
+2024-02-10 12:03:57,926 - DEBUG - Ending major_function
+2024-02-10 12:03:57,926 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,938 - DEBUG - Ending major_function
+2024-02-10 12:03:57,938 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,943 - DEBUG - Ending major_function
+2024-02-10 12:03:57,943 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,946 - DEBUG - Ending major_function
+2024-02-10 12:03:57,946 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,949 - DEBUG - Ending major_function
+2024-02-10 12:03:57,949 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,951 - DEBUG - Ending major_function
+2024-02-10 12:03:57,951 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,952 - DEBUG - Ending major_function
+2024-02-10 12:03:57,952 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,953 - DEBUG - Ending major_function
+2024-02-10 12:03:57,953 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,954 - DEBUG - Ending major_function
+2024-02-10 12:03:57,954 - INFO - Executed SQL from {sql_file}
+2024-02-10 12:03:57,954 - DEBUG - Ending major_function
+2024-02-10 12:03:57,954 - INFO - All python commands excuted
