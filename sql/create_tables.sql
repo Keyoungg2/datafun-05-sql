@@ -5,7 +5,7 @@
 
 DROP TABLE IF EXISTS books;
 DROP TABLE IF EXISTS authors;
-
+DROP TABLE IF EXISTS libraries;
 
 -- Create the books table
 -- Note that the books table has no foreign keys, so it is a standalone table
@@ -15,8 +15,7 @@ CREATE TABLE books (
     book_id TEXT PRIMARY KEY,
     title TEXT,
     year_published INTEGER,
-    author_id TEXT,
-);
+    author_id TEXT);
 
 -- Create the authors table 
 -- Note that the authors table has a foreign key to the books table
@@ -27,17 +26,16 @@ CREATE TABLE authors (
     first_name TEXT,
     last_name TEXT,
     year_born INTEGER,
-    FOREIGN KEY (author_id) REFERENCES books(author_id)
-);
+    FOREIGN KEY (author_id) REFERENCES books(author_id));
 
--- Create the library table
+-- Create the libraries table
 -- Note that the library table has a foreign key to the book id table
 -- The library table is dependent on the books table
 
 CREATE TABLE libraries (
     location_id INTEGER PRIMARY KEY,
     library_name TEXT,
+    street_address TEXT,
+    book_id TEXT, 
     FOREIGN KEY (book_id) REFERENCES books(book_id)
-    street_address TEXT
 );
-

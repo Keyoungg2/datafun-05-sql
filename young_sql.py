@@ -57,7 +57,7 @@ def create_tables():
 
     try:
         with sqlite3.connect(db_file) as conn:
-            sql_file = pathlib.Path("sql","create_table.sql")
+            sql_file = pathlib.Path("sql","create_tables.sql")
             with open(sql_file, "r") as file:
                 sql_script = file.read()
             conn.executescript(sql_script)
@@ -85,6 +85,7 @@ def insert_data_from_csv():
             # pass in the table name and the connection
             authors_df.to_sql("authors", conn, if_exists="replace", index=False)
             books_df.to_sql("books", conn, if_exists="replace", index=False)
+            libraries_df.to_sql("libraries", conn, if_exists="replace", index=False)
             print("Data inserted successfully.")
     except (sqlite3.Error, pd.errors.EmptyDataError, FileNotFoundError) as e:
         print("Error inserting data:", e)
@@ -109,16 +110,16 @@ def main():
     create_tables()
     insert_data_from_csv()
     
-    db_filepath = pathlib.Path("C:\Users\keyou\Documents\CSIS 44609\MOD 5 Python and SQL\datafun-05-sql\library_operation.db")
-    execute_sql_from_file(db_filepath, 'sql_file/create_tables.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/insert_records.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/update_records.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/delete_records.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/query_aggregation.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/query_filter.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/query_sorting.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/query_group_by.sql')
-    execute_sql_from_file(db_filepath, 'sql_file/query_join.sql')
+    db_filepath = pathlib.Path("library_operation.db")
+    execute_sql_from_file(db_filepath, 'sql/create_tables.sql')
+    execute_sql_from_file(db_filepath, 'sql/insert_records.sql')
+    execute_sql_from_file(db_filepath, 'sql/update_records.sql')
+    execute_sql_from_file(db_filepath, 'sql/delete_records.sql')
+    execute_sql_from_file(db_filepath, 'sql/query_aggregation.sql')
+    execute_sql_from_file(db_filepath, 'sql/query_filter.sql')
+    execute_sql_from_file(db_filepath, 'sql/query_sorting.sql')
+    execute_sql_from_file(db_filepath, 'sql/query_group_by.sql')
+    execute_sql_from_file(db_filepath, 'sql/query_join.sql')
 
 
     logging.debug("Ending major_function")
