@@ -32,7 +32,7 @@ Primary key: book_id
 Forgein key:
 '''
 # Define the database file in the current root project directory
-db_file = pathlib.Path("Library.db")
+db_file = pathlib.Path("library_operation.db")
 
 def create_database():
     """Function to create a database. Connecting for the first time
@@ -109,7 +109,7 @@ def main():
     create_tables()
     insert_data_from_csv()
     
-    db_filepath = pathlib.Path("C:\\Users\\blehman\\Projects\\datafun-05-sql\\library.db")
+    db_filepath = pathlib.Path("C:\Users\keyou\Documents\CSIS 44609\MOD 5 Python and SQL\datafun-05-sql\library_operation.db")
     execute_sql_from_file(db_filepath, 'sql_file/create_tables.sql')
     execute_sql_from_file(db_filepath, 'sql_file/insert_records.sql')
     execute_sql_from_file(db_filepath, 'sql_file/update_records.sql')
@@ -122,6 +122,6 @@ def main():
 
 
     logging.debug("Ending major_function")
-
+    logging.info("All python commands excuted")
 if __name__ == "__main__":
     main()

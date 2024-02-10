@@ -34,7 +34,7 @@ CREATE TABLE authors (
 -- Note that the library table has a foreign key to the book id table
 -- The library table is dependent on the books table
 
-CREATE TABLE library (
+CREATE TABLE libraries (
     location_id INTEGER PRIMARY KEY,
     library_name TEXT,
     FOREIGN KEY (book_id) REFERENCES books(book_id)
