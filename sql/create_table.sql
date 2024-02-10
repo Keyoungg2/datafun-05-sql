@@ -28,3 +28,13 @@ CREATE TABLE books (
     author_id TEXT,
     FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
+
+-- Create the library table
+-- Note that the library table has a foreign key to the book id table
+CREATE TABLE library (
+    location_id INTEGER PRIMARY KEY,
+    library_name TEXT,
+    FOREIGN KEY (book_id) REFERENCES books(book_id)
+    street_address TEXT
+);
+
