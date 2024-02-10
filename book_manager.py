@@ -54,6 +54,7 @@ def insert_data_from_csv():
     try:
         author_data_path = pathlib.Path("data", "authors.csv")
         book_data_path = pathlib.Path("data", "books.csv")
+        libraries_data_path = pathlib.Path("data", "libraries.csv")
         authors_df = pd.read_csv(author_data_path)
         books_df = pd.read_csv(book_data_path)
         with sqlite3.connect(db_file) as conn:
