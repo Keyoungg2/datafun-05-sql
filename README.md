@@ -19,12 +19,19 @@ Make sure to create the following in Vscode or file explore:
 1. Add requirements.txt
 2. Add .gitignore file
 3. Add Data Folder
-    Create Authors.csv
-    Create Books.csv
-    Create Libraries.csv
-4.Add Sql Folder
-    Place all sql scripts here 
-5. young_library_operations_sql.py
+ 
+    -Create Authors.csv
+
+    -Create Books.csv 
+
+    -Create Libraries.csv
+    
+ 4.Add Sql Folder
+ 
+   -Place all sql scripts here
+     
+ 5. young_library_operations_sql.py
+   
 6. Log.txt 
 
 
